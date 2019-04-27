@@ -6,3 +6,5 @@ events:
   - name: Midnight Sun CTF 2019 Quals
     placing: 24
     points: 3085
+  - name: ASIS CTF 2019 Quals
+    placing: 8
