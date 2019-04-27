@@ -2,9 +2,7 @@ year: 2019
 events:
   - name: nullcon HackIM 2019
     placing: 7
-    points: 5340
   - name: Midnight Sun CTF 2019 Quals
     placing: 24
-    points: 3085
   - name: ASIS CTF 2019 Quals
     placing: 8
