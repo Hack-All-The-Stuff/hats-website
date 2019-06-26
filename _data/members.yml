@@ -26,9 +26,3 @@
   skills: [pwn, reverse engineering, misc]
   desc: 68747470733A2F2F7777772E796F75747562652E636F6D2F77617463683F763D6451773477395767586351
   url: https://tcode2k16.github.io/blog/
-
-- name: ariana1729
-  img: ariana.gif
-  skills: [crypto]
-  desc: &int;<span style="margin-left: -5px;display: inline-block;text-align: center;vertical-align: middle;"><sup style="display: block;padding: 0 0.3em;">1</sup><sub style="display: block;padding: 0 0.3em;">0</sub></span>log(log(t))dt=-&gamma;+&pi;i
-  url: https://github.com/Ariana1729
