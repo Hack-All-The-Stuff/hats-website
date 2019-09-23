@@ -1,9 +1,9 @@
 <div class="container">
     <h3>Members</h3>
     <table>
-        <tbody>
+        <tbody id="member-list">
             {% for member in site.data.members %}
-            <tr>
+            <tr class="member-entry">
                 <td style="text-align: center"><img src="static/img/members/{{ member.img }}" alt="" height=130px/></td>
                 <td style="text-align: left; padding-left: 32px">
                     <h3><strong>{{ member.name }}</strong></h3>
