@@ -15,3 +15,6 @@ events:
   - name: DefCamp CTF Qualification 2019
     placing: 15
     points: 2825
+  - name: DEF CON CTF Qualifier 2019
+    placing: 32
+    points: 1363
