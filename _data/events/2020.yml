@@ -1,0 +1,14 @@
+year: 2020
+events:
+  - name: DEF CON CTF Qualifier 2020
+    placing: 43
+    points: 953
+  - name: CyBRICS CTF 2020
+    placing: 12
+    points: 2302
+  - name:	Crypto CTF 2020
+    placing: 9
+    points: 1445
+  - name: ALLES! CTF 2020
+    placing: 15
+    points: 1827
