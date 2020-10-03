@@ -6,3 +6,15 @@ events:
   - name: Midnight Sun CTF 2019 Quals
     placing: 24
     points: 3085
+  - name: ASIS CTF Quals 2019
+    placing: 8
+    points: 2887
+  - name: Crypto CTF 2019
+    placing: 6
+    points: 1650
+  - name: DefCamp CTF Qualification 2019
+    placing: 15
+    points: 2825
+  - name: DEF CON CTF Qualifier 2019
+    placing: 32
+    points: 1363
