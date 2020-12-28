@@ -1,0 +1,23 @@
+Reverse engineering UART to gain shell:
+https://medium.com/@shubhamgolam10/reverse-engineering-uart-to-gain-shell-de9019ae427a
+
+Remotely Exploiting AT Command Attacks on ZigBee Networks:
+http://downloads.hindawi.com/journals/scn/2017/1723658.pdf
+
+ZIGBEE EXPLOITED - The good, the bad and the ugly:
+https://www.blackhat.com/docs/us-15/materials/us-15-Zillner-ZigBee-Exploited-The-Good-The-Bad-And-The-Ugly-wp.pdf
+
+Hacking ZigBee Networks:
+https://resources.infosecinstitute.com/hacking-zigbee-networks/#gref
+
+ZigBee specification:
+https://zigbeealliance.org/wp-content/uploads/2019/11/docs-05-3474-21-0csg-zigbee-specification.pdf
+
+All Your Bulbs Are Belong to U - Investigating the Current State of Security in Connected Lighting Systems:
+https://arxiv.org/pdf/1608.03732.pdf
+
+z3Sec repo:
+https://github.com/IoTsec/Z3sec
+
+Attify-Zigbee-Framework:
+https://github.com/attify/Attify-Zigbee-Framework

@@ -1,0 +1,93 @@
+---
+layout: layout
+title: Talks
+---
+
+
+<div class="container">
+<h3>Talks</h3>
+  <div class="panel panel-default">
+    <div class="panel-body">
+		{% for event in site.data.talks %}
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <h3 style="text-align: right">
+                    {{ event.date | date: "%B %e, %Y" }}
+                </h3>
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <h3 style="text-align: left">
+                    {{ event.location }}
+                </h3>
+            </div>
+            <h3 style="text-align: center">
+                <strong>Speakers</strong>
+            </h3>
+            <table>
+                {% for speaker in event.speakers %}
+                    <tr>
+                        <td style="padding: 0px 0px 0px 64px">
+                            <h4 style="text-align: right; margin: 0px"><strong>{{ speaker.name }}</strong></h4>
+                        </td>
+                        <td style="padding: 0px">
+                            <h4 style="text-align: left; white-space: pre; margin: 0px"> on {{ speaker.title }}</h4>
+                        </td>
+                    </tr>
+                    {% if speaker.desc %}
+                    <tr>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="text-align: right; white-space: pre; margin: 0px"><strong>Description: </strong></h5>
+                        </td>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="margin: 0px"> {{ speaker.desc }} </h5>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if speaker.slidesFile %}
+                    <tr>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="text-align: right; white-space: pre; margin: 0px"></h5>
+                        </td>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="margin: 0px"><a href = "talks/{{ event.date }}/{{ speaker.name }}/{{ speaker.slidesFile }}">Slides</a></h5>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if speaker.slidesLink %}
+                    <tr>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="text-align: right; white-space: pre; margin: 0px"></h5>
+                        </td>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="margin: 0px"><a href = "{{ speaker.slidesLink }}">Slides</a></h5>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if speaker.files %}
+                    <tr>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="text-align: right; white-space: pre; margin: 0px"><strong>Files: </strong></h5>
+                        </td>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="margin: 0px"><a href = "talks/{{ event.date }}/{{ speaker.name }}/{{ speaker.files[0] }}">{{ speaker.files[0] }}</a></h5>
+                        </td>
+                    </tr>
+                    {% for file in speaker.files %}
+                    {% if forloop.index==1 %}
+                        {% continue %}
+                    {% endif %}
+                    <tr>
+                        <td style="padding: 0px; margin: 0px">
+                        </td>
+                        <td style="padding: 0px; margin: 0px">
+                            <h5 style="margin: 0px"><a href = "talks/{{ event.date }}/{{ speaker.name }}/{{ file }}">{{ file }}</a></h5>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    {% endif %}
+                    <tr><td/></tr>
+                {% endfor %}
+            </table>
+	    {% endfor %}
+	</div>
+  </div>
+</div>

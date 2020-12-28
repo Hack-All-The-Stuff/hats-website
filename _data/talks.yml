@@ -1,0 +1,61 @@
+- date: 2020-04-25
+  location: discord
+  speakers:
+    - name: Gladiator
+      title: ZigBee
+      slidesFile: ZigBee.pptx
+      files:
+        - resources.txt
+    - name: Dickheadedzed
+      title: r2
+    - name: Ariana
+      title: Motivation and applications of LLL
+      desc: A brief intro to how LLL gets used in crypto
+      slidesFile: LLL.pdf
+      files:
+        - algs.sage
+    - name: Lord_idiot
+      title: VirtualBox Vuln Hunting for an Idiot
+      slidesLink: https://docs.google.com/presentation/d/16VSbIsvW7kEzQmho2YhVyyt8OFD3K4YuRJXDH2SxSGo/edit#slide=id.p
+    - name: Quanyang
+      title: Easter XSS Challenge
+      slidesLink: https://docs.google.com/presentation/d/1MWk_37dr0m11BVDUigWqoRyQoTFYOd8A2_UMI23ieB8/edit?usp=sharing
+
+- date: 2020-08-29
+  location: discord
+  speakers:
+    - name: Ariana
+      title: Characterisation of Smart-proof curves
+      slidesFile: Smart proof curves.pdf
+      files: 
+        - gensmartproof.sage
+        - relatedcurve.sage
+        - smartattack.sage
+    - name: Gladiator
+      title: How i started go reversing
+      slidesLink: https://docs.google.com/presentation/d/1sNBj5HLQlmDxDrZfWEzwLa9LKlBXDZHDhaVTxRB2Nqk/edit#slide=id.g9319e9ef5e_0_45
+    - name: Daniao
+      title: Reversing RUST
+    - name: Creastery
+      title: Abusing SQL "Features"
+      slidesFile: HATS Lightning Talk - Abusing SQL Features (Part 1).pdf
+    - name: HackerTeh
+      title: "V8 Exploitation: a primer"
+      slidesLink: https://docs.google.com/presentation/d/1wRoTkhbwBkjeY8SDCFtqfQsyUED2IE_aQCGEr1Q1EH0/edit#slide=id.g35f391192_00
+
+- date: 2020-12-27
+  location: Zoom
+  speakers:
+    - name: Tan Kee Hock
+      title: Cloud
+    - name: Leng Kang Hao
+      title: Internet of Things
+    - name: Thomas Lim
+      title: Mobile Security
+    - name: Eugene Lim
+      title: Web Security
+    - name: Daniel Lim
+      title: Low level Golang
+      slidesFile: Low_level_Golang.pdf
+    - name: Ngo Wei Lin
+      title: Finding & Squashing Weird Bugs for Bounties

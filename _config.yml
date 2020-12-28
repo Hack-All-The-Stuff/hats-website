@@ -26,6 +26,8 @@ github: daniellimws/hats-website # username
 # disqus: username
 # google_analytics: UA-69391421-1
 
+collections:
+  - talks
 
 # needed for travis-ci build
 exclude: [vendor]
