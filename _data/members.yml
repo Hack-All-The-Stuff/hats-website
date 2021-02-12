@@ -38,3 +38,8 @@
   skills: [web, IoT]
   desc: "Got to git good"
   url: https://www.nullsession.pw/
+
+- name: Blacknote
+  img: blacknote.png
+  skills: [web, misc]
+  desc: "\"script kiddie\"\n-2019"
